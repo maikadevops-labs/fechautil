@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fechautil"
-version = "1.0.0"
+version = "1.1.0"
 description = "Utilidades mínimas para fechas en español. Librería de laboratorio para los pacientes de Pipeline Doctor."
 readme = "README.md"
 requires-python = ">=3.9"
