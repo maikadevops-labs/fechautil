@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from datetime import date
 
-__version__ = "1.1.0"
+__version__ = "1.0.0"
 
 _MESES = [
     "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -12,7 +12,7 @@ _MESES = [
 ]
 
 
-def parse_fecha(texto: str) -> date:
+def parse(texto: str) -> date:
     """Convierte 'AAAA-MM-DD' o 'DD/MM/AAAA' en un objeto date."""
     texto = texto.strip()
 
